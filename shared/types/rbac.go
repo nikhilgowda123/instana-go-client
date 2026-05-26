@@ -91,8 +91,6 @@ const (
 	PermissionCanConfigureMobileAppMonitoring = InstanaPermission("CAN_CONFIGURE_MOBILE_APP_MONITORING")
 	//PermissionCanConfigureAPITokens const for Instana permission CAN_CONFIGURE_API_TOKENS
 	PermissionCanConfigureAPITokens = InstanaPermission("CAN_CONFIGURE_API_TOKENS")
-	//PermissionCanConfigureServiceLevelIndicators const for Instana permission CAN_CONFIGURE_SERVICE_LEVEL_INDICATORS
-	PermissionCanConfigureServiceLevelIndicators = InstanaPermission("CAN_CONFIGURE_SERVICE_LEVEL_INDICATORS")
 	//PermissionCanConfigureAuthenticationMethods const for Instana permission CAN_CONFIGURE_AUTHENTICATION_METHODS
 	PermissionCanConfigureAuthenticationMethods = InstanaPermission("CAN_CONFIGURE_AUTHENTICATION_METHODS")
 	//PermissionCanConfigureReleases const for Instana permission CAN_CONFIGURE_RELEASES
@@ -187,6 +185,14 @@ const (
 	PermissionCanConfigurePersonallyIdentifiableInformationMasking = InstanaPermission("CAN_CONFIGURE_PERSONALLY_IDENTIFIABLE_INFORMATION_MASKING")
 	//PermissionCanDownloadAgentConfiguration const for Instana permission CAN_DOWNLOAD_AGENT_CONFIGURATION
 	PermissionCanDownloadAgentConfiguration = InstanaPermission("CAN_DOWNLOAD_AGENT_CONFIGURATION")
+	//PermissionCanConfigureAIAgents const for Instana permission CAN_CONFIGURE_AI_AGENTS
+	PermissionCanConfigureAIAgents = InstanaPermission("CAN_CONFIGURE_AI_AGENTS")
+	//PermissionCanViewBusinessActivities const for Instana permission CAN_VIEW_BUSINESS_ACTIVITIES
+	PermissionCanViewBusinessActivities = InstanaPermission("CAN_VIEW_BUSINESS_ACTIVITIES")
+	//PermissionCanViewBusinessProcesses const for Instana permission CAN_VIEW_BUSINESS_PROCESSES
+	PermissionCanViewBusinessProcesses = InstanaPermission("CAN_VIEW_BUSINESS_PROCESSES")
+	//PermissionCanConfigureLLMModelPrice const for Instana permission CAN_CONFIGURE_LLM_MODEL_PRICE
+	PermissionCanConfigureLLMModelPrice = InstanaPermission("CAN_CONFIGURE_LLM_MODEL_PRICE")
 
 	PermissionCanConfigureApdex                         = InstanaPermission("CAN_CONFIGURE_APDEX")
 	PermissionCanConfigureCustomEntities                = InstanaPermission("CAN_CONFIGURE_CUSTOM_ENTITIES")
@@ -210,6 +216,7 @@ const (
 	PermissionLimitedBizopsScope              = InstanaPermission("LIMITED_BIZOPS_SCOPE")
 	PermissionLimitedPhmcScope                = InstanaPermission("LIMITED_PHMC_SCOPE")
 	PermissionLimitedGenAiScope               = InstanaPermission("LIMITED_GEN_AI_SCOPE")
+	PermissionLimitedGenAiCapabilitiesScope   = InstanaPermission("LIMITED_GEN_AI_CAPABILITIES_SCOPE")
 	PermissionLimitedInfrastructureScope      = InstanaPermission("LIMITED_INFRASTRUCTURE_SCOPE")
 	PermissionLimitedNutanixScope             = InstanaPermission("LIMITED_NUTANIX_SCOPE")
 	PermissionLimitedWindowsHypervisorScope   = InstanaPermission("LIMITED_WINDOWS_HYPERVISOR_SCOPE")
@@ -217,6 +224,8 @@ const (
 	PermissionLimitedMObileAppsScope          = InstanaPermission("LIMITED_MOBILE_APPS_SCOPE")
 	PermissionLimitedWebsitesScope            = InstanaPermission("LIMITED_WEBSITES_SCOPE")
 
+	//PermissionAccessInfrastructureAnalyze const for Instana permission ACCESS_INFRASTRUCTURE_ANALYZE
+	PermissionAccessInfrastructureAnalyze = InstanaPermission("ACCESS_INFRASTRUCTURE_ANALYZE")
 	//PermissionAccessApplications const for Instana permission ACCESS_APPLICATIONS
 	PermissionAccessApplications = InstanaPermission("ACCESS_APPLICATIONS")
 	// PermissionAccessMobileApps const for Instana permission ACCESS_MOBILE_APPS
