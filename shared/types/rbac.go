@@ -139,8 +139,6 @@ const (
 	PermissionCanConfigureLogRetentionPeriod = InstanaPermission("CAN_CONFIGURE_LOG_RETENTION_PERIOD")
 	//PermissionCanConfigurePersonalAPITokens const for Instana permission CAN_CONFIGURE_PERSONAL_API_TOKENS
 	PermissionCanConfigurePersonalAPITokens = InstanaPermission("CAN_CONFIGURE_PERSONAL_API_TOKENS")
-	//PermissionAccessInfrastructureAnalyze const for Instana permission ACCESS_INFRASTRUCTURE_ANALYZE
-	PermissionAccessInfrastructureAnalyze = InstanaPermission("ACCESS_INFRASTRUCTURE_ANALYZE")
 	//PermissionCanViewLogVolume const for Instana permission CAN_VIEW_LOG_VOLUME
 	PermissionCanViewLogVolume = InstanaPermission("CAN_VIEW_LOG_VOLUME")
 	//PermissionCanRunAutomationActions const for Instana permission CAN_RUN_AUTOMATION_ACTIONS
